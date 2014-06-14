@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+}
+.header{
+  height: 100px;
+  text-align: center;
+}
+.header h2{
+  padding-top: 25px;
+  margin: 0;
+}
+.top-block{
+  height: 400px;
+  background-size: 90%;
+  background-position: center;
+  background-image: url(https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfa1/t31.0-8/194069_4590969100878_1689809932_o.jpg);
+  background-repeat: no-repeat;
+}
+.mid-block{
+  height: auto;
+}
+.bottom-block{
+  height: 400px;
+  background-size: 90%;
+  background-position: center;
+  background-image: url(https://scontent-b-iad.xx.fbcdn.net/hphotos-xaf1/t31.0-8/240217_2049791613029_7318508_o.jpg);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+img{
+  width: 50%;
+  float: left;
+}
