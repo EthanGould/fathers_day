@@ -1,10 +1,10 @@
 body{
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .header{
-  height: 100px;
   text-align: center;
+  padding: 25px;
 }
 .header h2{
   padding-top: 25px;
@@ -13,17 +13,25 @@ body{
 .please-work{
   margin: 0;
 }
-#top-block{
+#top-pic{
   height: 500px;
   overflow: hidden;
 }
 .double-pic{
   display: inline-block;
 }
-#bottom-block{
+#bottom-pic{
   height: 500px;
   overflow: hidden;
   width: 100%;
+}
+#footer-pic{
+  height: 500px;
+  overflow: hidden;
+  width: 100%;
+}
+#HandE{
+  margin-top: -50px;
 }
 #floating{
   margin-top: -80px;
@@ -54,14 +62,8 @@ img:hover {
 p{
 margin: 0;
 }
-#right-pic{
-  width: auto;
-}
 .caption-container{
   text-align: center;
-}
-figure{
-  margin: 0;
 }
 
 

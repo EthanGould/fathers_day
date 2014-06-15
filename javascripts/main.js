@@ -6,8 +6,8 @@ $(document).ready(function(){
 });
 
 fatherDay.expandPicture = function(){
-  var selector = $(this).attr('id');
-  if($('.caption-container').children().hasClass(selector)){
-    $('.caption-container').children('.' + selector).fadeToggle().text();
+  var $selector = $(this).attr('id');
+  if($('.caption-container').children().hasClass($selector)){
+    $('.caption-container').children('.' + $selector).fadeToggle().text();
   }
 };
