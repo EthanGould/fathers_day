@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  margin-bottom: 30px;
 }
 .header{
   height: 100px;
@@ -14,20 +15,42 @@ body{
 }
 #top-block{
   height: 500px;
-  background-size: 90%;
-  background-position: center;
-  background-image: url(https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfa1/t31.0-8/194069_4590969100878_1689809932_o.jpg);
-  background-repeat: no-repeat;
+  overflow: hidden;
 }
 .double-pic{
-  margin-left:5%;
-  margin-right:5%;
   display: inline-block;
 }
 #bottom-block{
   height: 500px;
-  background-size: 90%;
-  background-position: center;
-  background-image: url(https://scontent-b-iad.xx.fbcdn.net/hphotos-xaf1/t31.0-8/240217_2049791613029_7318508_o.jpg);
-  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 100%;
 }
+#floating{
+  margin-top: -80px;
+}
+#sailing{
+  margin-top: -120px;
+  text-align: center;
+}
+.container{
+  width: 900px;
+  margin: 0 auto;
+}
+img{
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\' filterRes=\'800\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+  -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+img:hover {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\' filterRes=\'800\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+  -webkit-filter: grayscale(0%);
+}
+
+
+
