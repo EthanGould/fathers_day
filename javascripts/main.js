@@ -1,9 +1,13 @@
 var fatherDay = fatherDay || {};
 
 $(document).ready(function(){
-  alert('good to go!');
+  $('.caption-container').children().hide();
+  $('.picture').on('click', fatherDay.expandPicture);
 });
 
-fatherDay.expandPicture = function(picture){
-  picture.children('.info').fadeIn('slow');
+fatherDay.expandPicture = function(){
+  var selector = $(this).attr('id');
+  if($('.caption-container').children().hasClass(selector)){
+    $('.caption-container').children('.' + selector).fadeToggle().text();
+  }
 };

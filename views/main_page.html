@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script type="text/javascript" src='../javascripts/main.js'></script>
-  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="../javascripts/script.js"></script>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script type='text/javascript' src='../javascripts/script.js'></script>
+  <script type='text/javascript' src='../javascripts/main.js'></script>
   <link href='../stylesheets/main.css' rel='stylesheet'>
 </head>
 <body>
@@ -15,14 +13,21 @@
     <div class='picture' id='top-block'>
       <img id='floating' width='100%' src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfa1/t31.0-8/194069_4590969100878_1689809932_o.jpg" style="float: left;">
     </div>
-    <div class='double-pic'>
-      <p class='please-work'>
+    <div class='please-work'>
+      <div class='picture' id='left-pic'>
         <img width='50%' src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfa1/t31.0-8/194069_4590969100878_1689809932_o.jpg" style="float: left;">
-        <img width='50%' src="https://scontent-b-iad.xx.fbcdn.net/hphotos-xaf1/t31.0-8/240217_2049791613029_7318508_o.jpg" style="float: right;">
-      </p>
+      </div>
+      <div class='picture' id='right-pic'>
+        <img width='50%' src="https://scontent-a-lga.xx.fbcdn.net/hphotos-ash2/t31.0-8/170642_1748555002302_7258849_o.jpg" style="float: right;">
+      </div>
+    </div>
+    <div class='caption-container'>
+      <p class='right-pic'> Something here</p>
+      <p class='left-pic'> Another thing goin on here</p>
     </div>
     <div class='picture'id='bottom-block'>
       <img id='sailing' width='100%' src="https://scontent-b-iad.xx.fbcdn.net/hphotos-xaf1/t31.0-8/240217_2049791613029_7318508_o.jpg" style="float: right;">
+      <p class='caption'> sailing away</p>
     </div>
   </div>
 </body>

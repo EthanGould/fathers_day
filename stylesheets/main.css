@@ -51,6 +51,17 @@ img:hover {
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\' filterRes=\'800\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
   -webkit-filter: grayscale(0%);
 }
-
+p{
+margin: 0;
+}
+#right-pic{
+  width: auto;
+}
+.caption-container{
+  text-align: center;
+}
+figure{
+  margin: 0;
+}
 
 
