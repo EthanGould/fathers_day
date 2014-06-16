@@ -25,6 +25,9 @@ body{
   overflow: hidden;
   width: 100%;
 }
+.bottom-left-pic, .bottom-right-pic{
+  margin: 0;
+}
 #footer-pic{
   height: 500px;
   overflow: hidden;
@@ -60,10 +63,15 @@ img:hover {
   -webkit-filter: grayscale(0%);
 }
 p{
-margin: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-family: 'Coming Soon', cursive;
+}
+span{
+  font-family: 'Oleo Script', cursive;
 }
 .caption-container{
   text-align: center;
+  height: auto;
 }
-
-
